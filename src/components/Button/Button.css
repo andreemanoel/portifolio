@@ -1,12 +1,13 @@
 .custom_btn {
   background-color: var(--main-color) !important;
-  font-size: 14px !important;
-  font-weight: 500 !important;
+  font-size: 13px !important;
+  font-weight: bold !important;
   border: 0 !important;
   border-radius: 50px !important;
-  padding: 1px 12px !important;
+  padding: 1px 20px !important;
   line-height: 35px !important;
   min-width: 100px !important;
   outline: none !important;
-  color: black;
+  color: black !important;
+  text-transform: none !important;
 }

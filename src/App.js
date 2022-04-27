@@ -6,12 +6,17 @@ import Header from './components/Header';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
     <Container> 
-      <Grid container mt={5}>
+      <Grid
+        container
+        spacing={3}
+        mt={1}
+        mb={5}
+      >
         <Grid
           item 
           xs={12}
@@ -25,20 +30,15 @@ function App() {
         <Grid
           item 
           xs 
-          ml={5} 
-          style={{backgroundColor: 'red'}}
         >
-          <Header />
           <Router>
-            <Switch>
-              <Route path="/portifolio">
-                <Portifolio />
-              </Route>
-
-              <Route path="/">
-                <Resume />
-              </Route>
-            </Switch>
+            <Header />
+            <div className='main-content container_shadow'>
+              <Routes>
+                <Route exact path="/portfolio" element={<Portifolio />} />
+                <Route exact path="/" element={<Resume />} />
+              </Routes>
+            </div>
           </Router>
           <Footer />
         </Grid>

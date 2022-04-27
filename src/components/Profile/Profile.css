@@ -1,6 +1,6 @@
 .profile {
-  background-color: white;
-  border-radius: 6px;
+  background-color: var(--main-color-bg);
+  border-radius: 10px;
   width: 100%;
   display: inline-block;
 }
@@ -14,11 +14,12 @@
   text-transform: uppercase;
   font-size: 17px;
   font-weight: bold;
+  color: white;
 }
 
 .profile_name .title {
   font-size: 13px;
-  color: #777
+  color: rgb(180, 178, 178)
 }
 
 .profile_image {
@@ -38,27 +39,30 @@
 }
 
 .profile_information .timeline .timeline_content {
-  margin-top: 2px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .timelineItem_text {
-  font-size: 13.5px !important;
-  color: #787878 !important;
+  font-size: 12px !important;
+  color: rgb(180, 178, 178) !important;
   font-weight: 400 !important;
 }
 
 .timelineItem_text > a{
-  color: #787878 !important;
+  color: rgb(180, 178, 178) !important;
   text-decoration: none;
 }
 
 .timelineItem_text > span {
-  color: black;
+  color: white;
 }
 
 .profile .button_container {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.profile_information svg {
+  font-size: larger;
 }

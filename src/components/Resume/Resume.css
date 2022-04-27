@@ -1,0 +1,12 @@
+.resume_container {
+  background-color: brown !important;
+}
+
+li {
+  color: white;
+  font-size: small;
+}
+
+ul {
+  padding-inline-start: 20px;
+}

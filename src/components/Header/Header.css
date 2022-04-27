@@ -1,0 +1,44 @@
+.appBar {
+  background-color: var(--main-color-bg) !important;
+  border-radius: 10px;
+}
+
+.appBar .icon{
+  color: var(--main-color);
+}
+
+.appBar .link {
+  text-decoration: none;
+  color: white;
+  padding-right: 20px;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: var(--main-color-bg);
+}
+
+.appBar .link:hover {
+  color: var(--main-color);
+}
+
+.appBar .header_right {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.header_right a {
+  padding-left: 20px;
+}
+
+.header_right a {
+  color: white !important;
+}
+
+.header_right a:hover {
+  color: var(--main-color) !important;
+}
+
+.appBar .link:active {
+  color: var(--main-color) !important;
+}

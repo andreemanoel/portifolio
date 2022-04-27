@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--main-color-bg);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+  border-radius: 10px;
+  padding: 0px 25px;
+  margin-top: 24px;
+}
+
+.footer .footer_copyright {
+  font-size: small;
+  text-align: end;
+  color: #9c9c9c;
+}

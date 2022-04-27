@@ -1,12 +1,11 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import DownloadIcon from '@mui/icons-material/Download';
 
 import './Button.css'
 
-const IButton = ({text}) => {
+const IButton = ({text, icon, handleDownload}) => {
   return (
-    <Button endIcon={<DownloadIcon />} className="custom_btn"> 
+    <Button endIcon={icon} className="custom_btn" onClick={handleDownload}> 
       {text}
     </Button>
   );
