@@ -68,7 +68,7 @@ const Header = (props) => {
                 </MenuItem>
                 <MenuItem onClick={handleCloseNavMenu}>
                   <Link to="/portifolio" className='link'>
-                    Portfolio
+                    Portfólio
                   </Link>
                 </MenuItem>
                 {Object.keys(resumeData.socials).map(key => (
@@ -86,7 +86,7 @@ const Header = (props) => {
                 Resumo
               </Link>
               <Link to="/portfolio" className='link'>
-                Portfolio
+                Portfólio
               </Link>
             </div>
             
